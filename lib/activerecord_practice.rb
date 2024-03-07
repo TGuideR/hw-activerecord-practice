@@ -8,6 +8,7 @@ ActiveRecord::Base.establish_connection(:adapter => 'sqlite3', :database => 'cus
 # Comment this line to turn off seeing the raw SQL queries.
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 
+#Pratice ActiveRecord with Customer data
 class Customer < ActiveRecord::Base
 
   def to_s
